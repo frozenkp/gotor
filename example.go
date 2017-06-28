@@ -1,13 +1,3 @@
-# gotor
-a tor client package using golang
-
-## Install
-```go
-go get github.com/FrozenKP/gotor
-```
-
-## Example
-```go
 package main
 
 import (
@@ -24,7 +14,7 @@ var webUrl string = "http://www.google.com"
 func main() {
         // get tor client
 	client := gotor.New(time.Second * 30)
-	
+
 	// Make request
 	resp, err := client.Get(webUrl)
 	if err != nil {
@@ -40,4 +30,3 @@ func main() {
 	log.Println(string(body))
 	log.Println("Return status code:", resp.StatusCode)
 }
-```
