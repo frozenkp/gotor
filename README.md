@@ -1,5 +1,6 @@
 [![GoDoc](https://godoc.org/github.com/FrozenKP/gotor?status.svg)](https://godoc.org/github.com/FrozenKP/gotor)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Go Report Card](https://goreportcard.com/badge/github.com/FrozenKP/gotor)](https://goreportcard.com/report/github.com/FrozenKP/gotor)
 
 # gotor
 a tor client package using golang
