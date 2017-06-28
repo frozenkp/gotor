@@ -1,6 +1,6 @@
-/*
-code original from http://www.devdungeon.com/content/making-tor-http-requests-go
-*/
+//Package gotor is a package to generate a simple tor client.
+//
+//code original from http://www.devdungeon.com/content/making-tor-http-requests-go
 package gotor
 
 import (

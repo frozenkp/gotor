@@ -12,7 +12,7 @@ import (
 var webUrl string = "http://www.google.com"
 
 func main() {
-        // get tor client
+	// get tor client
 	client := gotor.New(time.Second * 30)
 
 	// Make request
